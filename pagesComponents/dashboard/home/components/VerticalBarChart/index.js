@@ -39,7 +39,7 @@ import MDBox from "/components/MDBox";
 import MDTypography from "/components/MDTypography";
 
 // VerticalBarChart configurations
-import configs from "/pagesComponents/dashboard/Home/components/VerticalBarChart/configs";
+import configs from "/pagesComponents/dashboard/home/components/VerticalBarChart/configs";
 
 // NextJS Material Dashboard 2 PRO base styles
 import colors from "/assets/theme/base/colors";

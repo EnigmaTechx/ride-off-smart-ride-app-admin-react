@@ -26,16 +26,16 @@ import MDTypography from "/components/MDTypography";
 import DashboardLayout from "/pagesComponents/layouts/DashboardLayout";
 import DashboardNavbar from "/pagesComponents/layouts/DashboardNavbar";
 import Footer from "/pagesComponents/layouts/Footer";
-import ComplexStatisticsCard from "/pagesComponents/dashboard/Home/components/ComplexStatisticsCard";
+import ComplexStatisticsCard from "/pagesComponents/dashboard/home/components/ComplexStatisticsCard";
 
 // Data
-import reportsBarChartData from "/pagesComponents/dashboard/Home/data/reportsBarChartData";
-import reportsLineChartData from "/pagesComponents/dashboard/Home/data/reportsLineChartData";
+import reportsBarChartData from "/pagesComponents/dashboard/home/data/reportsBarChartData";
+import reportsLineChartData from "/pagesComponents/dashboard/home/data/reportsLineChartData";
 
 // Chart configurations
-import VerticalBarChart from "/pagesComponents/dashboard/Home/components/VerticalBarChart";
+import VerticalBarChart from "/pagesComponents/dashboard/home/components/VerticalBarChart";
 import verticalBarChartData from "/pagesComponents/dashboard/charts/data/verticalBarChartData";
-import PieChart from "/pagesComponents/dashboard/Home/components/PieChart";
+import PieChart from "/pagesComponents/dashboard/home/components/PieChart";
 import pieChartData from "/pagesComponents/dashboard/charts/data/pieChartData";
 // import fetchData from "/services/userService";
 
