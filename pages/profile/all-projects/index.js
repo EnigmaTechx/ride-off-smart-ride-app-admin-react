@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // @mui material components
 import Grid from "@mui/material/Grid";
@@ -56,7 +56,11 @@ function AllProjects() {
   const [lookingGreatMenu, setLookingGreatMenu] = useState(null);
   const [developerFirstMenu, setDeveloperFirstMenu] = useState(null);
 
-  const userId = localStorage.getItem("userId") || null;
+  const [userId, setUserId] = useState("");
+
+  useEffect(() => {
+    setUserId(localStorage.getItem("userId") || null);
+  }, []);
 
   // TeamProfileCard dropdown menu handlers
   const openSlackBotMenu = (event) => setSlackBotMenu(event.currentTarget);

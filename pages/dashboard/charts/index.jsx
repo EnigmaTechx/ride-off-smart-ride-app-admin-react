@@ -47,8 +47,14 @@ import pieChartData from "/pagesComponents/dashboard/charts/data/pieChartData";
 import radarChartData from "/pagesComponents/dashboard/charts/data/radarChartData";
 import polarChartData from "/pagesComponents/dashboard/charts/data/polarChartData";
 
+import { useEffect, useState } from "react";
+
 function Charts() {
-  const userId = localStorage.getItem("userId") || null;
+  const [userId, setUserId] = useState("");
+
+  useEffect(() => {
+    setUserId(localStorage.getItem("userId") || null);
+  }, []);
   return (
     <DashboardLayout>
       <DashboardNavbar userId={userId} />
